@@ -12,6 +12,7 @@ namespace ScheduleManagement.BusinessLogic
         public class asdasd
         {
             public int ab { get; set; }
+            public int a12b { get; set; }
         }
     }
 }
