@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleManagement.Web", "Demo\ScheduleManagement.Web.csproj", "{FA3C6A22-04AB-43B7-BB88-1E8F23DCAD71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleManagement.Web", "ScheduleManagement.Web\ScheduleManagement.Web.csproj", "{FA3C6A22-04AB-43B7-BB88-1E8F23DCAD71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduleManagement.BusinessLogic", "ScheduleManagement.BusinessLogic", "{6366465B-7432-40DD-ABE6-184303FE88E4}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScheduleManagement.BusinessLogic", "ClassLibrary1\ScheduleManagement.BusinessLogic.xproj", "{157193B3-D3D2-4030-A93A-D8A28E71F3B8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduleManagement.Data", "ScheduleManagement.Data", "{F1AFAA67-8A59-4ECD-8AC7-FFEA7FA54240}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScheduleManagement.Data", "Demo.Data\Demo.Data\ScheduleManagement.Data.xproj", "{11E95C3C-7E11-4C60-A5C8-39B181D2957F}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScheduleManagement.Data", "ScheduleManagement.Data\ScheduleManagement.Data\ScheduleManagement.Data.xproj", "{11E95C3C-7E11-4C60-A5C8-39B181D2957F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduleManagement.Web", "ScheduleManagement.Web", "{5051EE78-CD60-4AB1-90F7-79C8B0C982CC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScheduleManagement.BusinessLogic", "ScheduleManagement.BusinessLogic\ScheduleManagement.BusinessLogic\ScheduleManagement.BusinessLogic.xproj", "{E6DEBABB-A14C-4CEB-BDD3-CD0F67C4E8F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,21 +25,21 @@ Global
 		{FA3C6A22-04AB-43B7-BB88-1E8F23DCAD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3C6A22-04AB-43B7-BB88-1E8F23DCAD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3C6A22-04AB-43B7-BB88-1E8F23DCAD71}.Release|Any CPU.Build.0 = Release|Any CPU
-		{157193B3-D3D2-4030-A93A-D8A28E71F3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{157193B3-D3D2-4030-A93A-D8A28E71F3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{157193B3-D3D2-4030-A93A-D8A28E71F3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{157193B3-D3D2-4030-A93A-D8A28E71F3B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11E95C3C-7E11-4C60-A5C8-39B181D2957F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11E95C3C-7E11-4C60-A5C8-39B181D2957F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E95C3C-7E11-4C60-A5C8-39B181D2957F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E95C3C-7E11-4C60-A5C8-39B181D2957F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DEBABB-A14C-4CEB-BDD3-CD0F67C4E8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DEBABB-A14C-4CEB-BDD3-CD0F67C4E8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DEBABB-A14C-4CEB-BDD3-CD0F67C4E8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DEBABB-A14C-4CEB-BDD3-CD0F67C4E8F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA3C6A22-04AB-43B7-BB88-1E8F23DCAD71} = {5051EE78-CD60-4AB1-90F7-79C8B0C982CC}
-		{157193B3-D3D2-4030-A93A-D8A28E71F3B8} = {6366465B-7432-40DD-ABE6-184303FE88E4}
 		{11E95C3C-7E11-4C60-A5C8-39B181D2957F} = {F1AFAA67-8A59-4ECD-8AC7-FFEA7FA54240}
+		{E6DEBABB-A14C-4CEB-BDD3-CD0F67C4E8F0} = {6366465B-7432-40DD-ABE6-184303FE88E4}
 	EndGlobalSection
 EndGlobal
